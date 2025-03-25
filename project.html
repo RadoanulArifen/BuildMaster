@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - BuildMaster Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-icon"><i class="fas fa-hard-hat"></i></span>
+                        <span class="logo-text">BuildMaster</span>
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <button class="mobile-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html" class="active">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section id="page-banner">
+        <div class="banner-overlay"></div>
+        <div class="container">
+            <div class="banner-content">
+                <h1>Our Projects</h1>
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Intro -->
+    <section id="projects-intro" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Portfolio</h2>
+                <p>Showcasing our finest work and expertise</p>
+            </div>
+            <div class="projects-intro-content">
+                <p>At BuildMaster Construction, we take pride in our diverse portfolio of successful projects across residential, commercial, and infrastructure sectors. Each project represents our commitment to quality, innovation, and client satisfaction. Browse through our portfolio to see examples of our work and the value we bring to every project.</p>
+            </div>
+            
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+                <button class="filter-btn" data-filter="renovation">Renovation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section id="projects-grid" class="section bg-light">
+        <div class="container">
+            <div class="projects-container">
+                <!-- Skyline Tower -->
+                <div class="project-item commercial" id="skyline">
+                    <div class="project-card" data-aos="zoom-in">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Skyline Tower">
+                        </div>
+                        <div class="project-info">
+                            <h3>Skyline Tower</h3>
+                            <p class="project-category">Commercial</p>
+                            <p class="project-desc">A 30-story commercial building with state-of-the-art facilities and sustainable design.</p>
+                            <button class="btn btn-sm project-details-btn" data-project="skyline">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-details" id="skyline-details">
+                        <div class="details-container">
+                            <span class="close-details"><i class="fas fa-times"></i></span>
+                            <div class="details-content">
+                                <h2>Skyline Tower</h2>
+                                <div class="details-meta">
+                                    <span><i class="fas fa-map-marker-alt"></i> Downtown, Building City</span>
+                                    <span><i class="fas fa-calendar-alt"></i> Completed: January 2022</span>
+                                    <span><i class="fas fa-tag"></i> Commercial</span>
+                                </div>
+                                <div class="details-gallery">
+                                    <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Skyline Tower Exterior">
+                                    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Skyline Tower Interior">
+                                    <img src="https://images.unsplash.com/photo-1497215842964-222b430dc094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Skyline Tower Office Space">
+                                </div>
+                                <div class="details-description">
+                                    <p>Skyline Tower is a 30-story commercial building located in the heart of downtown. This landmark project features:</p>
+                                    <ul>
+                                        <li>500,000 square feet of Class A office space</li>
+                                        <li>LEED Platinum certification for sustainable design</li>
+                                        <li>Smart building technology for energy efficiency</li>
+                                        <li>Floor-to-ceiling windows providing panoramic city views</li>
+                                        <li>State-of-the-art conference facilities and amenities</li>
+                                        <li>Underground parking for 300 vehicles</li>
+                                    </ul>
+                                    <p>The project was completed in January 2022 after a 24-month construction period. The building now serves as the headquarters for several major corporations and has become an iconic addition to the city skyline.</p>
+                                </div>
+                                <div class="details-testimonial">
+                                    <blockquote>
+                                        "BuildMaster exceeded our expectations with the Skyline Tower project. Their attention to detail, commitment to sustainability, and ability to deliver on time and within budget made them the ideal partner for this landmark development."
+                                    </blockquote>
+                                    <cite>- Michael Chen, Development Director, Urban Properties</cite>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Luxury Residence -->
+                <div class="project-item residential" id="luxury">
+                    <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Luxury Residence">
+                        </div>
+                        <div class="project-info">
+                            <h3>Luxury Residence</h3>
+                            <p class="project-category">Residential</p>
+                            <p class="project-desc">A custom-designed luxury home featuring modern architecture and premium finishes.</p>
+                            <button class="btn btn-sm project-details-btn" data-project="luxury">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-details" id="luxury-details">
+                        <div class="details-container">
+                            <span class="close-details"><i class="fas fa-times"></i></span>
+                            <div class="details-content">
+                                <h2>Luxury Residence</h2>
+                                <div class="details-meta">
+                                    <span><i class="fas fa-map-marker-alt"></i> Hillside Estates, Building City</span>
+                                    <span><i class="fas fa-calendar-alt"></i> Completed: June 2022</span>
+                                    <span><i class="fas fa-tag"></i> Residential</span>
+                                </div>
+                                <div class="details-gallery">
+                                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Luxury Residence Exterior">
+                                    <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Luxury Residence Interior">
+                                    <img src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Luxury Residence Kitchen">
+                                </div>
+                                <div class="details-description">
+                                    <p>This custom-designed luxury residence is a showcase of modern architecture and premium craftsmanship. Key features include:</p>
+                                    <ul>
+                                        <li>6,500 square feet of living space with 5 bedrooms and 6 bathrooms</li>
+                                        <li>Open-concept floor plan with floor-to-ceiling windows</li>
+                                        <li>Gourmet kitchen with high-end appliances and custom cabinetry</li>
+                                        <li>Smart home technology throughout</li>
+                                        <li>Infinity pool and outdoor entertainment area</li>
+                                        <li>Energy-efficient systems and sustainable materials</li>
+                                    </ul>
+                                    <p>Completed in June 2022, this residence combines luxury living with sustainable design principles. The project was delivered on schedule and exceeded the client's expectations in terms of quality and attention to detail.</p>
+                                </div>
+                                <div class="details-testimonial">
+                                    <blockquote>
+                                        "Working with BuildMaster on our dream home was an exceptional experience. Their team listened to our vision and brought it to life with impeccable craftsmanship and attention to detail. We couldn't be happier with our new home."
+                                    </blockquote>
+                                    <cite>- Sarah Johnson, Homeowner</cite>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Highway Extension -->
+                <div class="project-item infrastructure" id="highway">
+                    <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Highway Extension">
+                        </div>
+                        <div class="project-info">
+                            <h3>Highway Extension</h3>
+                            <p class="project-category">Infrastructure</p>
+                            <p class="project-desc">A major highway extension project improving connectivity and reducing traffic congestion.</p>
+                            <button class="btn btn-sm project-details-btn" data-project="highway">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-details" id="highway-details">
+                        <div class="details-container">
+                            <span class="close-details"><i class="fas fa-times"></i></span>
+                            <div class="details-content">
+                                <h2>Highway Extension</h2>
+                                <div class="details-meta">
+                                    <span><i class="fas fa-map-marker-alt"></i> North County, Building City</span>
+                                    <span><i class="fas fa-calendar-alt"></i> Completed: March 2023</span>
+                                    <span><i class="fas fa-tag"></i> Infrastructure</span>
+                                </div>
+                                <div class="details-gallery">
+                                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Highway Extension">
+                                    <img src="https://images.unsplash.com/photo-1545459720-aac8509eb149?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Highway Bridge">
+                                    <img src="https://images.unsplash.com/photo-1517420879524-86d64ac2f339?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1326&q=80" alt="Highway Construction">
+                                </div>
+                                <div class="details-description">
+                                    <p>The Highway Extension project was a major infrastructure development aimed at improving connectivity and reducing traffic congestion. The project included:</p>
+                                    <ul>
+                                        <li>15-mile extension of the existing highway</li>
+                                        <li>Construction of three new interchanges</li>
+                                        <li>Two major bridge structures spanning local waterways</li>
+                                        <li>Implementation of smart traffic management systems</li>
+                                        <li>Environmental mitigation measures to protect local ecosystems</li>
+                                        <li>Noise reduction barriers in residential areas</li>
+                                    </ul>
+                                    <p>Completed in March 2023, this project has significantly improved traffic flow and reduced commute times for thousands of daily commuters. The project was delivered on schedule despite challenging weather conditions and complex engineering requirements.</p>
+                                </div>
+                                <div class="details-testimonial">
+                                    <blockquote>
+                                        "BuildMaster's expertise in infrastructure development was evident throughout this complex project. Their ability to coordinate with multiple stakeholders and overcome engineering challenges resulted in a highway extension that has transformed our region's transportation network."
+                                    </blockquote>
+                                    <cite>- Robert Thompson, County Transportation Director</cite>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Shopping Mall Renovation -->
+                <div class="project-item commercial renovation">
+                    <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Shopping Mall Renovation">
+                        </div>
+                        <div class="project-info">
+                            <h3>Shopping Mall Renovation</h3>
+                            <p class="project-category">Commercial, Renovation</p>
+                            <p class="project-desc">Complete renovation and modernization of a 25-year-old shopping mall.</p>
+                            <button class="btn btn-sm project-details-btn" data-project="mall">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-details" id="mall-details">
+                        <div class="details-container">
+                            <span class="close-details"><i class="fas fa-times"></i></span>
+                            <div class="details-content">
+                                <h2>Shopping Mall Renovation</h2>
+                                <div class="details-meta">
+                                    <span><i class="fas fa-map-marker-alt"></i> Eastside, Building City</span>
+                                    <span><i class="fas fa-calendar-alt"></i> Completed: November 2022</span>
+                                    <span><i class="fas fa-tag"></i> Commercial, Renovation</span>
+                                </div>
+                                <div class="details-gallery">
+                                    <img src="https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Shopping Mall Interior">
+                                    <img src="https://images.unsplash.com/photo-1581417478175-a9ef18f210c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Shopping Mall Exterior">
+                                    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Shopping Mall Food Court">
+                                </div>
+                                <div class="details-description">
+                                    <p>This project involved the complete renovation and modernization of a 25-year-old shopping mall. The scope of work included:</p>
+                                    <ul>
+                                        <li>Structural upgrades to meet current building codes</li>
+                                        <li>Complete redesign of interior spaces and common areas</li>
+                                        <li>Installation of energy-efficient lighting and HVAC systems</li>
+                                        <li>Creation of a modern food court and entertainment zone</li>
+                                        <li>Facade improvements and exterior landscaping</li>
+                                        <li>Integration of digital technology for enhanced shopping experience</li>
+                                    </ul>
+                                    <p>The renovation was completed in November 2022 while keeping portions of the mall operational throughout the construction process. The revitalized mall has seen a 40% increase in foot traffic and has attracted several premium retail tenants.</p>
+                                </div>
+                                <div class="details-testimonial">
+                                    <blockquote>
+                                        "The transformation of our aging mall into a modern shopping destination has exceeded our expectations. BuildMaster's ability to execute this complex renovation while minimizing disruption to existing tenants was impressive. The result has revitalized our property and the surrounding community."
+                                    </blockquote>
+                                    <cite>- Jennifer Williams, Property Manager, Eastside Mall</cite>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Residential Community -->
+                <div class="project-item residential">
+                    <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80" alt="Residential Community">
+                        </div>
+                        <div class="project-info">
+                            <h3>Residential Community</h3>
+                            <p class="project-category">Residential</p>
+                            <p class="project-desc">A master-planned residential community with 50 luxury homes and amenities.</p>
+                            <button class="btn btn-sm project-details-btn" data-project="community">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-details" id="community-details">
+                        <div class="details-container">
+                            <span class="close-details"><i class="fas fa-times"></i></span>
+                            <div class="details-content">
+                                <h2>Residential Community</h2>
+                                <div class="details-meta">
+                                    <span><i class="fas fa-map-marker-alt"></i> Westside, Building City</span>
+                                    <span><i class="fas fa-calendar-alt"></i> Completed: August 2022</span>
+                                    <span><i class="fas fa-tag"></i> Residential</span>
+                                </div>
+                                <div class="details-gallery">
+                                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80" alt="Residential Community">
+                                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Residential Home">
+                                    <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Community Amenities">
+                                </div>
+                                <div class="details-description">
+                                    <p>This master-planned residential community project included the development of 50 luxury homes and extensive community amenities. The project featured:</p>
+                                    <ul>
+                                        <li>50 custom-designed homes ranging from 2,500 to 4,000 square feet</li>
+                                        <li>Community clubhouse with fitness center and event space</li>
+                                        <li>Swimming pool and tennis courts</li>
+                                        <li>Walking trails and preserved natural areas</li>
+                                        <li>Sustainable landscaping and water management systems</li>
+                                        <li>Underground utilities and fiber optic connectivity</li>
+                                    </ul>
+                                    <p>Completed in August 2022, this community has become one of the most sought-after residential developments in the region. The project was completed in phases over a 30-month period, with all homes sold before the final phase was completed.</p>
+                                </div>
+                                <div class="details-testimonial">
+                                    <blockquote>
+                                        "BuildMaster's vision for our community and their attention to detail throughout the development process created a neighborhood that exceeds our expectations. The quality of construction and thoughtful design of both the homes and community spaces has created a truly special place to live."
+                                    </blockquote>
+                                    <cite>- David Anderson, Homeowners Association President</cite>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Hospital Expansion -->
+                <div class="project-item commercial">
+                    <div class="project-card" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80" alt="Hospital Expansion">
+                        </div>
+                        <div class="project-info">
+                            <h3>Hospital Expansion</h3>
+                            <p class="project-category">Commercial</p>
+                            <p class="project-desc">A major expansion of the regional medical center with state-of-the-art facilities.</p>
+                            <button class="btn btn-sm project-details-btn" data-project="hospital">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-details" id="hospital-details">
+                        <div class="details-container">
+                            <span class="close-details"><i class="fas fa-times"></i></span>
+                            <div class="details-content">
+                                <h2>Hospital Expansion</h2>
+                                <div class="details-meta">
+                                    <span><i class="fas fa-map-marker-alt"></i> Central District, Building City</span>
+                                    <span><i class="fas fa-calendar-alt"></i> Completed: April 2023</span>
+                                    <span><i class="fas fa-tag"></i> Commercial</span>
+                                </div>
+                                <div class="details-gallery">
+                                    <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80" alt="Hospital Exterior">
+                                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1153&q=80" alt="Hospital Interior">
+                                    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Hospital Room">
+                                </div>
+                                <div class="details-description">
+                                    <p>This project involved a major expansion of the regional medical center to enhance healthcare services and capacity. The expansion included:</p>
+                                    <ul>
+                                        <li>New 120,000 square foot patient tower with 100 private rooms</li>
+                                        <li>State-of-the-art surgical suite with 8 operating rooms</li>
+                                        <li>Expanded emergency department with trauma capabilities</li>
+                                        <li>Advanced diagnostic imaging center</li>
+                                        <li>Healing gardens and patient-centered design elements</li>
+                                        <li>Energy-efficient systems and sustainable building practices</li>
+                                    </ul>
+                                    <p>Completed in April 2023, this expansion was executed while maintaining full operations of the existing hospital. The project required careful planning and phasing to minimize disruption to patient care and hospital operations.</p>
+                                </div>
+                                <div class="details-testimonial">
+                                    <blockquote>
+                                        "The complexity of expanding an operational hospital required a construction partner with exceptional planning and execution capabilities. BuildMaster delivered on all fronts, creating a state-of-the-art healthcare facility that will serve our community for generations to come."
+                                    </blockquote>
+                                    <cite>- Dr. Elizabeth Carter, Hospital CEO</cite>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Construction Project?</h2>
+                <p>Contact us today for a free consultation and quote</p>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-info">
+                        <div class="footer-logo">
+                            <span class="logo-icon"><i class="fas fa-hard-hat"></i></span>
+                            <span class="logo-text">BuildMaster</span>
+                        </div>
+                        <p>Quality construction services with over 25 years of excellence in the industry. Building tomorrow's world today.</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-services">
+                        <h3>Our Services</h3>
+                        <ul>
+                            <li><a href="services.html#residential">Residential Construction</a></li>
+                            <li><a href="services.html#commercial">Commercial Construction</a></li>
+                            <li><a href="services.html#road">Road Construction</a></li>
+                            <li><a href="services.html#renovation">Renovation</a></li>
+                            <li><a href="services.html#design">Design & Planning</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h3>Contact Us</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Construction Ave, Building City, BC 12345</p>
+                        <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                        <p><i class="fas fa-envelope"></i> info@buildmaster.com</p>
+                        <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 BuildMaster Construction. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
