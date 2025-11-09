@@ -2,6 +2,8 @@
 
 BuildMaster is a **modern, responsive, and animated** static website for a construction company. It showcases **services, projects, testimonials, and contact details** with a professional design and smooth user experience.
 
+![BuildMaster Preview](./buildmaster.png)
+
 ## Features
 
 - **Homepage**: Hero section with background image, company logo, tagline, and CTA buttons.
